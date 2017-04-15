@@ -1,0 +1,220 @@
+\documentclass[11pt]{article}
+
+	% Language Setup (English)
+	\usepackage[utf8]{inputenc} 
+	\usepackage[T1]{fontenc}
+	\usepackage[english]{babel}
+
+	\usepackage{lmodern,textcomp} % improves font
+	\usepackage{microtype} % improves font-spacing
+	\usepackage{cmap} % improves typesetting, makes pfd search- and copy-able
+
+	\usepackage{xcolor} % for colouring 
+	\definecolor{pink}{RGB}{217,217,217} % same bacbackground as in the word document
+	\usepackage{tcolorbox} % framed box with background color
+	\usepackage{enumitem} % numbered double bracket enumerations
+		\usepackage[autostyle=true]{csquotes} % quotes
+	\usepackage{titlesec} % individual headlines
+		\titleclass{\instmainftitle}{straight}[\section] % framed maintitle
+		  \titleformat{\instmainftitle}[frame]{\normalfont\bfseries\large}{}{0.1em}{~}
+		  \titlespacing*{\instmainftitle}{0pt}{0ex}{1.5ex}
+		\titleclass{\instsubtitle}{straight}[\subsection]  % subtitle
+		  \titleformat{\instsubtitle}{\normalfont\small\bfseries\MakeUppercase}{}{}{}
+			\titlespacing*{\instsubtitle}{0pt}{3ex}{1.5ex}	
+	\DeclareUnicodeCharacter{00A0}{ }
+	\setlength{\parindent}{0pt}
+	
+	\textwidth14.5cm % for testing purpose forcing textwidth
+\begin{document}
+	
+
+\instmainftitle*{Welcome to the Experiment}
+
+You are participating in an economic experiment. Please read the following instructions carefully. The instructions state everything you need to know about your participation in the (following) experiment. \bigbreak
+Please note:
+\begin{itemize}
+	\item From this moment on, during the whole experiment, you are \textbf{not allowed to communicate} with other participants. Turn off your mobile phones. If you have any questions, please silently raise your hand.
+	\item \textbf{All decisions are anonymous}. That means none of the other participants will learn about the identity of any other decision maker.
+	\item \textbf{In this experiment, you can earn money}. The exact amount depends on your decisions as well as on the decisions of the other participants. The total amount of money you will have earned during the experiment will be paid out in \textbf{cash} at the end. The \textbf{payment will be individual and anonymous} that means no participant learns about the payments of the other participants. This experiment uses the currency \enquote{Geldeinheiten} (GE). \textbf{20 GE correspond to one Euro}, or 1 GE corresponds to 0.05 €.
+	\item \textbf{For arriving on time to the experiment, you will receive an additional 10 Euro}.
+\end{itemize}
+
+~\par
+		
+\instmainftitle*{The experiment}
+
+The experiment consists of \textbf{40 rounds}. In each round, you will be grouped with two other randomly selected participants in a \textbf{group of three}. It will not be revealed with whom you were grouped and new groups will be randomly formed every round. In each round, you have exactly \textbf{one decision} to make.
+
+
+\instsubtitle*{Experimental Procedure}
+
+The experiment with its 40 rounds is divided into \textbf{four sections} each consisting of 10 rounds: section 1 consists of rounds 1 - 10, section 2 consists of rounds 11 - 20, section 3 consists of rounds 21 - 30 and section 4 consists of rounds 31 - 40. ~\bigskip
+The sections differ only in the used \textbf{procurement procedure}. In all rounds in section 1 and section 3 (i.e. rounds 1-10 and 21 - 30) \textbf{procurement procedure 1} will be used. In all rounds in section 2 and section 4 (i.e. in rounds 11 - 20 and 31 - 40) \textbf{procurement procedure 2} will be used. The experiment informs you when a new section begins.
+
+
+\instsubtitle*{Decisions}
+
+In all 40 rounds, you represent a \textbf{company which produces one unit of a certain good} with the intention to sell. All participants (i.e. their companies) respectively produce one unit of the same good and compete for selling their good only by setting a bid price. At the beginning of each round, you will be notified of \textbf{your individual production costs of the good}. The costs are determined randomly and change every round. ~\bigbreak
+In each of the 40 rounds, you can produce one unit of the good and sell it. Your decision consists of \textbf{submitting a bid price for selling the unit}. \textbf{In each group, the three participants compete for selling two units of the good}. Therefore, in every round offers of only \textbf{two participants} per group are accepted. These two participants then produce the good and sell it at the \textbf{sales price} which \textbf{depends on the used procurement procedure}. ~\bigbreak
+If your offer is accepted, your \textbf{profit equals the sales price less your production costs}. If your offer is not accepted, you won't receive any payment, and no costs incur, as you do not produce the good, and hence, your profit equals zero.
+
+
+\instsubtitle*{The rounds}
+
+Each of the 40 rounds is structured as follows
+
+\begin{enumerate}[label=\textbf{\upshape(\arabic*\upshape)}]
+	\item \textbf{\underline{Random group formation}} ~\smallbreak
+		In each round, you are grouped with two other \textbf{randomly} selected participants in a \textbf{group of three}. The identities of the two members in your group will remain unknown to you. You will be reassigned to a new group every round and its composition changes every time.
+	\item \textbf{\underline{Individual production costs}} ~\smallbreak
+		At the beginning of every round, you will be notified of your \textbf{individual production costs} of the good. Your costs are determined \textbf{randomly} to be a \textbf{whole number between 100 GE and 199 GE}. Each of the numbers are \textbf{equally likely} to be chosen. The production costs for every participant can differ. You will be only told about your production costs and will not know the production costs of any other participant.
+	\item \textbf{\underline{Decision}} ~\smallbreak
+		You make the \textbf{decision on the offer} for one unit of the good you produce. This decision is made by all participants \textbf{simultaneously} and \textbf{unaware} of the other’s decisions. Depending on the procurement procedure (1 or 2) your offer consists either of \textbf{one bid offer (procurement procedure 1)} or \textbf{one or two bid offers (procurement procedure 2)}.
+	\item \textbf{\underline{Result}}  ~\smallbreak
+		At the end of every round, you will be \textbf{informed about your result in this round}. This information consists of whether or not your offer has been accepted and if yes at which sales price you will sell your unit of the good and what your resulting profit in this round is.		
+\end{enumerate}
+
+The \textbf{phases (1)} and \textbf{(2)}, \enquote{Random group formation} and \enquote{Individual production costs} are \textbf{the same in all 40 rounds}. The \textbf{phases (3}) and \textbf{(4)} \textbf{differ} depending on \textbf{which procurement procedure} is being used: \textbf{procurement procedure }1 or \textbf{procurement procedure 2}.
+
+\instsubtitle*{Procurement Procedure 1}
+
+\begin{enumerate}[label=\textbf{\upshape(\arabic*\upshape)}] \setcounter{enumi}{2}
+	\item \textbf{\underline{Decision} (Procurement Procedure 1)} ~\smallbreak
+		Your offer for the sales of one unit of the good consists of \textbf{one bid offer}. A bid offer is a \textbf{whole number} (i.e. a number without decimal places) between \textbf{50 GE and 250 GE}. Enter your decision in the corresponding field \enquote{bid offer}.
+	\item \textbf{\underline{Result} (Procurement Procedure 1)} ~\smallbreak
+		The \textbf{two best offers} in each \textbf{group of three}, i.e. the two offers with the \textbf{lowest bid offers}, are accepted. ~\smallbreak
+		If your offer is accepted your bid offer will define the sales price:
+			$$ \textbf{Sales price = bid offer} $$
+		If your offer is accepted, you’ll receive a payment in the amount of the sales price, and individual production costs incur. Your profit is thereby
+			$$ \textbf{Profit = Sales price - Production cost} $$
+		If your offer is not accepted you won’t receive any payment, and no production costs incur, and your profit equals zero. ~\smallbreak
+		At the end of every round, you will be informed of whether or not your offer has been accepted. If your offer has been accepted your sales price and profit will be displayed/shown (on the screen).
+\end{enumerate}
+
+
+\begin{figure}[h!] 
+	\begin{minipage}[t]{1\linewidth} 
+		\begin{tcolorbox}[colback=pink,arc=0pt,colframe=black!25]
+			\underline{Example 1}: todo ~\bigbreak 
+			\vspace{4cm}
+			The offer of \underline{participant C} is not accepted. Thus, no costs are incurred (for him), and his profit equals zero.      
+		\end{tcolorbox} 
+	\end{minipage}  
+\end{figure}
+
+
+
+\instsubtitle*{Procurement Procedure 2} 
+
+\begin{enumerate}[label=\textbf{\upshape(\arabic*\upshape)}] \setcounter{enumi}{2}
+	\item \textbf{\underline{Decision} (Procurement Procedure 2)} ~\smallbreak
+		Your offer for the sales of one unit of the good consists \textbf{either} of \textbf{one bid offer} or \textbf{two alternative bid offers}. A bid offer is a \textbf{whole number} (i.e. a number without decimal places) between \textbf{50 GE and 250 GE}. 
+		\begin{itemize}
+			\item If you want to submit only \textbf{one bid offer}, enter your offer in the corresponding field \enquote{bid offer 1} and leave the field \enquote{bid offer 2} empty.
+			\item If you want to submit \textbf{two alternative bid offers}, enter your offers in the fields \enquote{bid offer 1} and \enquote{bid offer 2} whereby your bid offer 2 has to be higher than your bid offer 1.
+		\end{itemize}
+	\item \textbf{\underline{Result} (Procurement Procedure 2)} ~\smallbreak
+		The \textbf{two best offers} in each \textbf{group of three}, i.e. the two offers with the \textbf{lowest bid offers 1}, are \textbf{accepted}.
+		\begin{itemize}
+			\item If your offer is \textbf{accepted} and you have only submitted \textbf{one} bid offer (i.e. only bid offer 1) your offer will define the sales price:
+			$$ \textbf{Sales price = bid offer 1} $$
+			\item If your offer is \textbf{accepted} and you have submitted \textbf{two} bid offers, \textbf{either} your \textbf{bid offer 1} or \textbf{bid offer} 2 will define the sales price: ~\medbreak
+			If your bid offer 2 is smaller than the highest bid offer 1 in your group of three (i.e. the bid offer 1 of the participant whose offer wasn’t accepted), your bid offer 2 (i.e. the higher of your two offers) defines the sales price:
+				$$ \textbf{Sales price = bid offer 2} $$
+			Otherwise (i.e. your bid offer 2 is higher than the bid offer 1 of the participant whose offer wasn’t accepted), your bid offer 1 defines the sales price:
+ 				$$ \textbf{Sales price = bid offer 1} $$
+		\end{itemize}
+		If your offer is accepted, you’ll receive a payment in the amount of the sales price, and individual production costs incur. Your profit is thereby
+		$$ \textbf{Profit = Sales price – Production cost} $$
+		If your offer is not accepted you won’t receive any payment, and no production costs are incurred, and your profit equals zero. ~\smallbreak
+		At the end of every round, you will be informed of whether or not your offer has been accepted. If your offer has been accepted your sales price and profit will be displayed/shown (on the screen).
+\end{enumerate}
+
+
+\begin{figure}[h!] 
+	\begin{minipage}[t]{1\linewidth} 
+		\begin{tcolorbox}[colback=pink,arc=0pt,colframe=black!25]
+			\underline{Example 2}: todo ~\bigbreak 
+			\vspace{4cm}
+			The offer of \underline{participant C} is not accepted. Thus, no costs are incurred (for him), and his profit equals zero.         
+		\end{tcolorbox} 
+	\end{minipage}  
+\end{figure}
+
+
+\instsubtitle*{Note}
+
+In cases of equal bid offers the accepted offer is randomly chosen.
+
+
+\instsubtitle*{Your Payment}
+
+For the payment at the end of the experiment, \textbf{in each of the four stages, four out of the ten rounds are randomly chosen}, all rounds having the same probability. The profits in the chosen rounds will be converted in Euro (20 GE correspond to 1 Euro) and added to your show-up fee (10 Euros). \textbf{Therefore, in total, you will receive your 10 Euros show-up fee plus your profit in 16 randomly chosen rounds, where 20 GE correspond to 1 Euro.} ~\bigbreak
+The results in the remaining rounds are irrelevant for your payment.
+
+\instsubtitle*{Further Information}
+
+Please give your decisions serious consideration as they will determine the amount of payment you will receive at the end of the experiment. Before the experiment starts, you have to answer a series of question to make sure that you have understood the experimental procedure and your tasks. Both, questions and possible answers, will be displayed on your screen. ~\bigbreak
+If you have any questions during the experiment itself, remain quietly seated and raise your hand to indicate an issue. Please wait until the experimenter has approached you and ask your question as quietly as possible. However, your questions should only relate to the instructions and not to (the) strategies! ~\bigbreak
+Furthermore, please note that the experiment will only continue if all participants have made their decisions. ~\bigbreak
+On the last page of the instructions, you may take notes during the experiment.
+
+\instsubtitle*{End of Experiment}
+
+After you have finished the experiment, we would like you to complete a questionnaire. ~\bigbreak
+Please remain seated after finishing the questionnaire until your seat number is called out. Bring the instructions and your seat number to the front. Only then you will receive your payment for participating in the experiment.
+
+   \addvspace{1.5cm}
+   
+\textbf{Thank you for your participation and good luck!}
+ 
+ 
+~\newpage
+
+\begin{figure}[ht!] 
+	\begin{minipage}[t]{1\linewidth} 
+		\begin{tcolorbox}[arc=0pt,colframe=black!25]
+			\instsubtitle*{Overview of the most important information}
+			
+			\textbf{\underline{General}} ~\bigskip
+
+				\begin{tabular}{ll}
+					\textbf{Rounds} 				& todo \\
+					\textbf{Groups} 				& todo \\
+					\textbf{Production Costs} 		& todo \\
+					\textbf{Geldeinheiten (GE)} 	& todo \\
+					\textbf{Your Payment} 			& todo \\
+					\hspace{3.75cm}					& 	   \\					
+				\end{tabular} ~\bigskip
+			
+			\textbf{\underline{Procurement Procedure 1}} ~\bigskip
+
+				\begin{tabular}{ll}
+					\textbf{Bid Offer} 				& todo \\
+					\textbf{Accepted Offers} 		& todo \\
+					\textbf{Sales Price} 			& todo \\
+					\textbf{Profit}		 			& todo \\
+					\hspace{3.75cm}					& 	   \\
+				\end{tabular} ~\bigskip
+		
+			\textbf{\underline{Procurement Procedure 2}} ~\bigskip
+
+				\begin{tabular}{ll}
+					\textbf{Bid Offer} 				& todo \\
+					\textbf{Accepted Offers} 		& todo \\
+					\textbf{Sales Price}			& todo \\
+					\textbf{Profit}		 			& todo \\
+					\hspace{3.75cm}					& 	   \\
+				\end{tabular} ~\bigskip
+  
+		\end{tcolorbox} 
+	\end{minipage}  
+\end{figure}
+
+
+~\newpage
+
+
+\instsubtitle*{Notes}
+
+\end{document}
