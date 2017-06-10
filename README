@@ -1,1 +1,26 @@
-Bitte hier die Kommentare lesen: https://docs.google.com/document/d/1J-bzGAjuyQxqckKKkqYTgIfbcyXZU5c0UcMHm9n0UnQ/edit
+Experiment @ KIT 2017
+===========
+These instructions for an experiment at KIT were translates and put into LaTex.
+
+
+The Experiment
+======
+The experiment consists of \textbf{40 rounds}. In each round, you will be grouped with two other randomly selected participants in a \textbf{group of three}. It will not be revealed with whom you were grouped and new groups will be randomly formed every round. In each round, you have exactly \textbf{one decision} to make.
+
+
+Experimental Procedure
+======
+The experiment with its 40 rounds is divided into \textbf{four sections} each consisting of 10 rounds: section 1 consists of rounds 1 - 10, section 2 consists of rounds 11 - 20, section 3 consists of rounds 21 - 30 and section 4 consists of rounds 31 - 40. ~\bigbreak
+The sections differ only in the used \textbf{procurement procedure}. In all rounds in section 1 and section 3 (i.e. rounds 1-10 and 21 - 30) \textbf{procurement procedure 1} will be used. In all rounds in section 2 and section 4 (i.e. in rounds 11 - 20 and 31 - 40) \textbf{procurement procedure 2} will be used. The experiment informs you when a new section begins.
+
+Decisions
+======
+In all 40 rounds, you represent a \textbf{company which produces one unit of a certain good} with the intention to sell. All participants (i.e. their companies) produce one unit of the same good and compete for selling their good only by setting a bid offer, respectively. At the beginning of each round, you will be informed of \textbf{your individual production costs of the good}. The costs are determined randomly and change every round. ~\bigbreak
+In each of the 40 rounds, you can produce one unit of the good and sell it. Your decision consists of \textbf{submitting a bid offer for selling the unit}. \textbf{In each group, the three participants compete for selling two units of the good}. Therefore, in every round offers of only \textbf{two participants} per group are accepted. These two participants then produce the good and sell it at the \textbf{sales price} which \textbf{depends on the procurement procedure in use}. ~\bigbreak
+If your offer is accepted, your \textbf{profit equals the sales price less your production costs}. If your offer is not accepted, you won't receive any payment, and no costs incur, as you do not produce the good, and hence, your profit equals zero.
+
+Improvement suggestions (even if only for typos) can be
+* can be either directly pushed into this repo
+* or sent to me via email (MBelica@hmamail.com).
+
+I'm going to try to implement all suggestions and improvements as soon as possible.
